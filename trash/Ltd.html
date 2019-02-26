@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Ltd Edition</title>
+	<link rel="stylesheet" type="text/css" href="css/Ltd.css">
+    <script type="text/javascript" src="js/Ltd.js"></script>
+</head>
+<body>
+<div class="back">
+    <div class="top">
+        <div class="logo"><a href="index.html"><img src="img/lol-logo-w-s.png"/></a></div>
+        <div class="search">
+            <a href="#" class="asearch"><img class="isearch-l" src="img/searchleft.png"/></a> 
+            <input type="text" value="Search for..." name="search" class="input">
+            <a href="#" class="asearch"><img class="isearch-r" src="img/searchright.png"/></a>    
+        </div>
+        <div class="account">
+            <a href="#"><img src="img/account.png"/></a>
+        </div>
+        <div class="cart">
+            <a href="#"><img src="img/cart.png"/></a>
+            <div id="shoppingList">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="mylist">
+            <a href="#"><img src='img/mylist.png'/></a>
+        </div>        
+    </div>
+</div>
+
+<div class="plist">
+    <div class="plogo">
+        <img src='img/shop.png'/>
+    </div>
+    <ul class="ulist">
+        <li id="lpl">
+            <a href="#">LPL Team Souvenir</a>
+        </li>
+        <li class="vt">|</li>
+        <li id="gk">
+            <a href="#">Garage Kits</a>
+        </li>
+        <li class="vt">|</li>
+        <li><a href="#">Plush Toy</a></li>
+        <li class="vt">|</li>
+        <li><a href="#">Fashion Dress</a></li>
+        <li class="vt">|</li>
+        <li><a href="#">Daily Use</a></li>
+        <li class="vt">|</li>
+        <li><a href="#">Others</a></li>        
+    </ul>
+</div>
+
+<nav class="nvBar">
+    <a href="index.html">Home</a>
+    <span>></span>
+    <a href="#">Garage Kit</a>
+    <span>></span>
+    <a href="#">Ltd Edition</a>
+</nav>
+
+<div class="mid">
+    <ul class="categories">
+         <li id="hd">categories</li>
+        <a href="#"><li class="tag">LPL SOUVENIR</li></a>
+        <a href="#"><li>SNG team</li></a>
+        <a href="#"><li>OMG team</li></a>
+        <a href="#"><li>RNG team</li></a>
+        <a href="#"><li>EDG team</li></a>
+        <a href="#"><li>RW team</li></a>
+        <a href="#"><li class="tag">GARAGE KITS</li></a>
+        <a href="#"><li>small-sized</li></a>
+        <a href="#"><li>medium-sized</li></a>
+        <a href="#"><li>large-sized</li></a>
+        <a href="#"><li>Ltd Edition</li></a>
+        <a href="#"><li class="tag">PLUSH TOYS</li></a>
+        <a href="#"><li>scale model</li></a>
+        <a href="#"><li>completed</li></a>
+        <a href="#"><li>collection edition</li></a>
+        <a href="#"><li class="tag">FASHION DRESS</li></a>
+        <a href="#"><li>T-shirt</li></a>
+        <a href="#"><li>hoodie</li></a>
+        <a href="#"><li>jacket</li></a>
+        <a href="#"><li>trousers</li></a>
+        <a href="#"><li>hats</li></a>
+        <a href="#"><li class="tag">DAILY USE</li></a>
+        <a href="#"><li>mug</li></a>
+        <a href="#"><li>backpack</li></a>
+        <a href="#"><li>notebook</li></a>
+        <a href="#"><li>mouse pad</li></a>
+        <a href="#"><li>scarf</li></a>
+        <a href="#"><li>snap-on case</li></a>
+        <a href="#"><li class="tag">OTHERS</li></a>
+        <a href="#"><li>poster</li></a>
+        <a href="#"><li>all</li></a>
+    </ul>
+    <div class="table">
+        <div class="sort">
+            <select name="sort" id="sel">
+                <option value="#">sort</option>
+                <option value="#">2018 edition</option>
+                <option value="#">2017 edition</option>
+                <option value="#">festival edition </option>
+            </select>
+        <ul class="prolist">
+            <!--  <li>
+                <a href="#">
+                    <img src="img/180/bpgc.jpg">
+                    <p class="name">Ziggs Garage Kit</p>
+                </a>
+                <p class="cost">HK$200</p>
+                <button class="btn" id="btn1">ADD TO BAG</button>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
+<script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    
+    $(function(){
+        
+        // wether the shopping list is empty.
+        var def= $('<span class="def">NO ITEM</span>');
+        if($(".prolist li").length > 0){
+
+        }else{
+            $("#shoppingList ul").append(def);
+        }
+    
+        // control the hid and show of the shopping list. 
+        $('.cart').hover(function(){
+            $('#shoppingList').slideToggle(-500);
+        });
+    })
+</script>
