@@ -26,4 +26,13 @@
     
   <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/14.png"/></div>
     
-  这是LTD分类中的分页，全部是根据数据库动态更新的，只要管理员后台上传了新的上面
+  这是LTD分类中的分页，全部是根据数据库动态更新的，只要管理员后台上传了新的商品，该页面就会动态更新。
+  
+  <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/17.png"/></div>
+    
+  这是点开具体的商品页，也是动态页面，根据列表页面提交的pid，采用ajax向后台请求数据。
+    
+  <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/16.png"/></div>
+    
+  这是管理员的订单管理页面。
+  
