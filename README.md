@@ -7,7 +7,7 @@
 # 配置和依赖
   ## 服务器租用的AWS的云服务器：  
   Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0385455dc2b1498ef (64 位 (x86)) / ami-05b186cbeb4bd0170 (64 位 ARM)  
-  请参考：https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
+  具体配置请参考：https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
   ## 本地服务器采用的WAMP：
   http://www.wampserver.com/en
 # 网站效果图一览
@@ -36,3 +36,5 @@
     
   这是管理员的订单管理页面。
   
+  # 安全方面
+  针对当前流行知名的网络攻击，从代码层面能够抵抗XSS攻击，CSRF攻击等。其他比如申请应用SSL等。  
