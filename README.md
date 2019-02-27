@@ -13,17 +13,17 @@
 # 网站效果图一览
 
   <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/11.png"/></div>  
-
+    
   这是网站的主页，可以选择右上角的登录、购物车和主页中央的各类目进行操作，将鼠标hover在相应组件上的时候会有不同的弹窗，主要是对JS、JQ的应用。  
-
+    
   <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/12.png"/></div>  
-  
+    
   这是登录界面，可以在下方选择是普通用户登录还是管理员登录或者注册，普通用户和管理员用户通过数据库里的特殊Flag区分。我个人其实是不想在这里开放管理员登录入口的，但是作业要求需要只好开放，我认为是有些不安全且没必要的。
-  
+    
   <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/13.png"/></div>
-  
+    
   这是商品管理界面，只有通过了admin用户登录认证之后，才会跳转到这里。普通用户无权访问。管理员可以通过此界面进行商品的删添改查
-  
+    
   <div align=center><img src="https://github.com/XM-WANG/E-Commerce-Platform-Based-on-PHP/blob/master/images/14.png"/></div>
-  
+    
   这是LTD分类中的分页，全部是根据数据库动态更新的，只要管理员后台上传了新的上面
